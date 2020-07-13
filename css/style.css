@@ -10,28 +10,31 @@
   clear: both;
 }
 
+* h3 {
+  margin: 12px 0;
+}
+
+.txt_centre {
+  text-align: center;
+}
+
+.container_padding {
+  padding: 50px 0;
+}
+
 /* header */
 /* header_title */
 .header_title_container {
   padding: 12px 0px;
 }
-.header_title h2 {
-  text-align: center;
-}
 /* /header_title */
 
 /* header_teacher */
-.teacher {
-  text-align: center;
-}
 .teacher img {
   max-height: 150px;
   display: inline-block;
 }
 
-.teacher h3 {
-  margin: 12px 0;
-}
 /* /header_teacher */
 /* /header */
 
@@ -39,6 +42,7 @@
 /* main top */
 .main_top {
   margin: 50px 0;
+  background-color: #F5F5F5
 }
 /* main top title */
 .main_top_title_container {
@@ -47,13 +51,30 @@
 /* /main top title */
 
 /* main top function */
-.main_function {
-  text-align: center;
-}
 
-.main_function h3 {
-  margin: 12px 0;
-}
 /* /main top function */
 /* /main top */
+
+/* main centre */
+.main_centre {
+  text-align: center;
+  background-color: #F5F5F5;
+}
+.main_centre img {
+  max-height: 200px;
+  display: inline-block;
+  background-color: #428BCA;
+  border-radius: 100px;
+  padding: 15px;
+}
+
+.main_centre_why_container > div {
+  padding-bottom: 70px;
+}
+/* title */
+/* /title */
+
+/* school */
+/* /school */
+/* /main centre */
 /* /main */
