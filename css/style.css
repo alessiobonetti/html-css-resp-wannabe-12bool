@@ -10,6 +10,7 @@
   clear: both;
 }
 
+
 * h3 {
   margin: 12px 0;
 }
@@ -78,3 +79,21 @@
 /* /school */
 /* /main centre */
 /* /main */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  [class*="col-"] {
+    float: none;
+  }
+  .teacher_online {
+    padding-top: 20px;
+  }
+
+  .main_function div {
+    padding-bottom: 40px;
+  }
+
+  .main_centre_why_container div {
+    float: left;
+    padding: 10px 20px;
+  }
+}
