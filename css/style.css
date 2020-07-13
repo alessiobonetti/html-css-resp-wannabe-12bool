@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.clear_box {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* header */
 /* header_title */
 .header_title_container {
@@ -26,6 +32,28 @@
 .teacher h3 {
   margin: 12px 0;
 }
-
 /* /header_teacher */
 /* /header */
+
+/* main */
+/* main top */
+.main_top {
+  margin: 50px 0;
+}
+/* main top title */
+.main_top_title_container {
+  padding: 30px 0;
+}
+/* /main top title */
+
+/* main top function */
+.main_function {
+  text-align: center;
+}
+
+.main_function h3 {
+  margin: 12px 0;
+}
+/* /main top function */
+/* /main top */
+/* /main */
