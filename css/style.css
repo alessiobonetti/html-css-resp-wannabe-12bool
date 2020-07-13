@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+/* header_title */
+.header_title_container {
+  padding: 12px 0px;
+}
+.header_title h1 {
+  text-align: center;
+}
+/* /header_title */
+
+/* header_teacher */
+.teacher img {
+  max-height: 150px;
+  margin-left: 40%;
+}
+/* /header_teacher */
+/* /header */
