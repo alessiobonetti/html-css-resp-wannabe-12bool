@@ -9,15 +9,23 @@
 .header_title_container {
   padding: 12px 0px;
 }
-.header_title h1 {
+.header_title h2 {
   text-align: center;
 }
 /* /header_title */
 
 /* header_teacher */
+.teacher {
+  text-align: center;
+}
 .teacher img {
   max-height: 150px;
-  margin-left: 40%;
+  display: inline-block;
 }
+
+.teacher h3 {
+  margin: 12px 0;
+}
+
 /* /header_teacher */
 /* /header */
